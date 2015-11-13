@@ -1,0 +1,24 @@
+{
+  "name": "rm-debugger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/test.js | tap-spec",
+    "foo": "rm-debugger tests/fixture -d"
+  },
+  "bin": {
+    "rm-debugger": "./bin/rm-debugger.js"
+  },
+  "keywords": ["codemod", "jscodeshift", "remove debugger"],
+  "author": "Mikael Brevik <mikaelbre@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  },
+  "dependencies": {
+    "jscodeshift": "^0.3.8",
+    "nomnom": "^1.8.1"
+  }
+}
