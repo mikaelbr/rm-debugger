@@ -1,5 +1,6 @@
-# Codemod for removing `debugger;` [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
+# Codemod for removing `debugger;`
 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Simplest [`codemod`](https://github.com/facebook/jscodeshift) you can think of,
 but is still handy: Remove all `debugger;` statements from your code.
